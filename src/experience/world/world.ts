@@ -19,7 +19,7 @@ export default class World {
 
     this.resources.on("loaded", () => {
       console.log("Resources ready");
-      this.floor = new Floor();
+      // this.floor = new Floor();
       this.fox = new Fox();
       this.environment = new Environment();
     });
