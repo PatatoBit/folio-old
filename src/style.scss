@@ -67,15 +67,15 @@ body {
     margin-top: 4rem;
 
     &:hover div:nth-child(1) {
-      transform: translate(200%, -160%) rotate(-15deg);
+      transform: translate(100%, -80%) rotate(-15deg);
     }
 
     &:hover div:nth-child(2) {
-      transform: translate(160%, 170%) rotate(15deg);
+      transform: translate(80%, 85%) rotate(15deg);
     }
 
     &:hover div:nth-child(3) {
-      transform: translate(-200%, -170%) rotate(15deg);
+      transform: translate(-100%, -85%) rotate(15deg);
     }
 
     div {
